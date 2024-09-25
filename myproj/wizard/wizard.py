@@ -32,7 +32,7 @@ class SysAdminWizard(models.TransientModel):
 
         return {
             'type': 'ir.actions.act_window',
-            'res_model': 'sysadmin.wizard',
+            'res_model': 'wizard',
             'view_mode': 'form',
             'res_id': self.id,
             'target': 'new',

@@ -25,4 +25,16 @@
         <field name="view_mode">form</field>
         <field name="target">new</field>
     </record>
+
+    <!-- Main Menu Item -->
+    <menuitem id="menu_sysadmin_root" name="MyProj" sequence="10"/>
+
+    <!-- Sub Menu Item for the Command Execution Wizard -->
+    <menuitem id="menu_sysadmin_wizard" 
+              name="Wizard" 
+              parent="menu_sysadmin_root" 
+              action="action_sysadmin_wizard"
+              sequence="10"/>
+
+
 </odoo>
